@@ -1,0 +1,197 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElevenFiveNews - Solusi Energi Sekolah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #222;
+      color: white;
+      padding: 15px 30px;
+    }
+    header img {
+      height: 50px;
+      margin-right: 15px;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    /* tombol menu */
+    .menu-toggle {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 25px;
+      height: 18px;
+    }
+    .menu-toggle span {
+      display: block;
+      height: 3px;
+      background: white;
+      border-radius: 2px;
+    }
+    nav {
+      display: none;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    nav a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #222;
+    }
+    nav a:hover {
+      background: #f4f4f4;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    .highlight {
+      background: #e3f2fd;
+      padding: 10px;
+      border-left: 4px solid #1976d2;
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+      margin-top: 30px;
+    }
+    .team {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://files.catbox.moe/5rwdy9.png" alt="Logo ElevenFiveNews">
+      <h1>ElevenFiveNews</h1>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="menu">
+      <a href="#">Beranda</a>
+      <a href="#">Artikel</a>
+      <a href="#">Tentang</a>
+      <a href="#">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Solusi Kelistrikan Sekolah dengan Energi Baru Terbarukan</h2>
+    <p>
+      Sekolah modern saat ini membutuhkan pasokan listrik yang stabil dan efisien. Namun, biaya listrik yang tinggi
+      dan seringnya terjadi pemadaman menjadi permasalahan serius. Selain itu, penggunaan energi fosil yang berlebihan
+      tidak ramah lingkungan dan bertentangan dengan konsep pembangunan berkelanjutan.
+    </p>
+
+    <div class="highlight">
+      <b>Permasalahan utama:</b> konsumsi listrik sekolah yang boros, biaya tinggi, dan ketergantungan pada PLN sepenuhnya.
+    </div>
+
+    <h2>Solusi yang Ditawarkan</h2>
+    <p>
+      Untuk mengatasi permasalahan ini, sekolah dapat menerapkan kombinasi penggunaan <b>Panel Listrik Tenaga Surya (PLTS)</b>
+      dan <b>listrik dari PLN</b>. Dengan sistem hybrid ini, sekolah bisa hemat sekaligus tetap menjaga kestabilan daya.
+    </p>
+
+    <p>
+      <b>PLTS (Panel Surya)</b> digunakan untuk:
+      <ul>
+        <li>Ruang kelas</li>
+        <li>Ruang guru</li>
+        <li>UKS</li>
+        <li>Perpustakaan</li>
+        <li>Fasilitas ringan lain</li>
+      </ul>
+    </p>
+
+    <p>
+      <b>Listrik PLN</b> tetap digunakan untuk:
+      <ul>
+        <li>Laboratorium komputer</li>
+      </ul>
+      karena ruangan ini memiliki beban daya yang sangat tinggi, dimana PLTS belum mampu menanggung kebutuhan banyak komputer secara bersamaan.
+    </p>
+
+    <div class="highlight">
+      Selain itu, penggunaan sistem <b>kartu listrik model hotel</b> bisa diterapkan di setiap kelas agar pemakaian listrik lebih hemat dan terkontrol.
+    </div>
+
+    <h2>Desain dan Maket</h2>
+    <p>
+      Dalam rancangan maket, panel surya ditempatkan di atap ruang kelas dan gedung utama. Aliran listrik dari PLTS
+      diarahkan untuk kebutuhan kelas, ruang guru, UKS, dan perpustakaan. Sementara itu, aliran listrik PLN difokuskan
+      ke laboratorium komputer dan ruang lain dengan kebutuhan daya besar.
+    </p>
+
+    <p>
+      Dengan sistem ini, sekolah tidak hanya lebih hemat biaya listrik, tetapi juga ikut mendukung program energi
+      baru terbarukan yang ramah lingkungan.
+    </p>
+
+    <h2>Kesimpulan</h2>
+    <p>
+      Kombinasi penggunaan PLTS untuk ruangan ringan dan PLN untuk laboratorium komputer adalah solusi terbaik dan realistis.
+      Sekolah akan mendapatkan manfaat ganda: penghematan biaya, keberlanjutan energi, serta mendukung upaya menjaga lingkungan.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ElevenFiveNews</p>
+    <div class="team">
+      <b>Kelompok 4:</b> Heldy Arya Agusseta, Zainudin, Vito, Tommy, Sofia, Lidiyah, Sella
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
